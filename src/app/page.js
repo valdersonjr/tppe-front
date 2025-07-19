@@ -25,7 +25,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/auth/register">
-                <Button variant="outline" size="lg" className="px-8">
+                <Button variant="outline" size="lg" className="px-8" type="button">
                   Criar Conta
                 </Button>
               </Link>
