@@ -76,20 +76,7 @@ const Header = () => {
                   Sair
                 </Button>
               </>
-            ) : (
-              <div className="flex items-center space-x-2">
-                <Link href="/auth/login">
-                  <Button variant="ghost" size="sm">
-                    Login
-                  </Button>
-                </Link>
-                <Link href="/auth/register">
-                  <Button size="sm">
-                    Registrar
-                  </Button>
-                </Link>
-              </div>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
